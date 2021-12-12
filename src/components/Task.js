@@ -19,7 +19,7 @@ export default function Task({ task : {id, title, state}, onArchiveTask, onPinTa
                  />
             </label>
             <div className='title'>
-                <input type="text" value={title} readOnly={true} placeholder='Input Title' style={{background: 'red'}} />
+                <input type="text" value={title} readOnly={true} placeholder='Input Title' />
             </div>
 
             <div className='actions' onClick={event => event.stopPropagation()}>
